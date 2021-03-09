@@ -8,4 +8,10 @@ describe('ssr', () => {
 
     expect(body).toContain('success')
   })
+
+  it('should use custom endpoint uri', async () => {
+    const { body } = await get('/customEndpoint')
+
+    expect(body).toContain('http://localhost:8000')
+  })
 })

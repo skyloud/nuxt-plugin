@@ -13,6 +13,7 @@ module.exports = {
   ],
   axios: {},
   skyloud: {
-    appId: 'abc123abc123abc123abc123'
+    appId: 'abc123abc123abc123abc123',
+    apiAccountsBaseUrl: 'http://localhost:8000'
   }
 }
